@@ -1,0 +1,54 @@
+.App {
+  background-color: lightgrey;
+}
+
+.title {
+  height: 80px;
+  padding-top: 20px;
+  background-color: black;
+  vertical-align: center;
+}
+
+.my-header {
+  text-align: center;
+  font-size: 40px;
+  color: orange;
+  text-shadow: 2px 2px 5px grey;
+  animation: shake infinite 5s linear;
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(4px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.quake-list {
+  padding-top: 30px;
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+}
+
+.earthquake-title {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 30px;
+  text-align: center;
+  height: 200px;
+  background-image: url('http://www.sanandreasfault.org/4020_A.jpg');
+  background-position: center;
+}
