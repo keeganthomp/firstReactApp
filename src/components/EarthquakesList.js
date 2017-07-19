@@ -3,7 +3,7 @@ import "../styles/App.css";
 import moment from "moment";
 import earthquakes from "../data/earthquakes";
 
-class Earthquakes extends Component {
+class EarthquakeList extends Component {
   render() {
     {
       let quakes = earthquakes.features.map(quakes => {
@@ -43,4 +43,4 @@ class Earthquakes extends Component {
   }
 }
 
-export default Earthquakes;
+export default EarthquakeList;
